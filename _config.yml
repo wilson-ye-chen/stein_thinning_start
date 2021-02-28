@@ -1,4 +1,4 @@
 title: Stein Thinning
-logo: ./gmm.jpg
+logo: /assets/img/gmm.png
 description: [Paper](https://arxiv.org/pdf/2005.03952.pdf)
 theme: jekyll-theme-minimal
