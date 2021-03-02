@@ -1,4 +1,4 @@
 title: Stein Thinning
 logo: /assets/img/gmm.png
-description: Simple line
+description: Optimally improves your MCMC output via intelligent thinning and burn-in removal.
 theme: jekyll-theme-minimal
