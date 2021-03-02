@@ -1,4 +1,4 @@
-# About
-# Installation
-# Get Started
-# Citing Stein Thinning
+### About
+### Installation
+### Get Started
+### Citing Stein Thinning
