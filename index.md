@@ -12,7 +12,7 @@ of the selected MCMC states. The resulting "thinned" chain will:
 
 Implementations of Stein Thinning are currently available for Python and MATLAB:
 
-* [Install for Python]
+* [Install for Python](https://github.com/wilson-ye-chen/stein_thinning#installing-via-git)
 * Install for MATLAB
 * Install for R (Coming soon!)
 
