@@ -20,5 +20,14 @@ Implementations of Stein Thinning are currently available for Python and MATLAB:
 * Install for R (Coming soon!)
 
 ### Get Started
+
+It takes a single function call to start thinning:
+```python
+indices = thin(samples, gradients, 100)
+```
+* [Python](https://github.com/wilson-ye-chen/stein_thinning#getting-started)
+* [MATLAB](https://github.com/wilson-ye-chen/stein_thinning_matlab#getting-started)
+* R (Coming soon!)
+
 ### Stan Examples
 ### Citing Stein Thinning
