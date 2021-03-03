@@ -21,13 +21,21 @@ Implementations of Stein Thinning are currently available for Python and MATLAB:
 
 ### Get Started
 
-It takes a single function call to start thinning:
+In [Python](https://github.com/wilson-ye-chen/stein_thinning#getting-started),
+[MATLAB](https://github.com/wilson-ye-chen/stein_thinning_matlab#getting-started),
+or R, it takes a single function call to start Stein Thinning:
 ```python
 indices = thin(samples, gradients, 100)
 ```
-* [Python](https://github.com/wilson-ye-chen/stein_thinning#getting-started)
-* [MATLAB](https://github.com/wilson-ye-chen/stein_thinning_matlab#getting-started)
-* R (Coming soon!)
 
 ### Stan Examples
+
+Stein Thinning can be used to post-process the output from:
+* [PyStan](https://github.com/wilson-ye-chen/stein_thinning#pystan-example)
+* MatlabStan
+* RStan
+
 ### Citing Stein Thinning
+
+Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ.
+Optimal Thinning of MCMC Output. [arXiv](https://arxiv.org/abs/2005.03952)
