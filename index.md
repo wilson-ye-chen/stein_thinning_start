@@ -1,15 +1,17 @@
 ### About
-Stein Thinning is able to post-process the output of any Markov chain Monte Carlo
-(MCMC) procedure by optimally selecting a subset of realised states w.r.t. a kernel
-Stein discrepancy.
+Stein Thinning is a tool for post-processing the output of a sampling procedure,
+such as Markov chain Monte Carlo (MCMC). It aims to minimise a Stein discrepancy,
+to select a subset of the samples that best represent the distributional target.
 
-The user provide two arrays: one storing the MCMC samples and another containing
-the corresponding gradient values of the log-posterior, and get returned a vector
-of indices of the selected MCMC states. The resulting "Stein thinned" chain will:
+The user provide two arrays: one containing the samples and another containing
+the corresponding gradients of the log-target. Stein Thinning returns a vector
+of indices, indicating which representative samples were selected. In favourable
+circumstances, Stein Thinning is able to:
 
-* be free of initial bias caused by the burn-in period,
-* gain statistical efficiency in approximating the posterior distribution,
-* offer a compressed representation of the MCMC output.
+* automatically identify and remove the burn-in period from MCMC output,
+* perform bias-removal for biased sampling procedures,
+* provide improved approximations of the distributional target,
+* offer a compressed representation of sample-based output.
 
 ### Installation
 
