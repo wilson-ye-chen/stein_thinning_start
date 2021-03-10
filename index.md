@@ -24,7 +24,7 @@ Implementations of Stein Thinning are currently available for Python and MATLAB:
 ### Get Started
 
 First, it is important to parametrise the distributional target so that it 
-has a positive density on <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\mathbb{R}^d" />.
+has a positive density <img alt="formula" src="https://render.githubusercontent.com/render/math?math=p(x)" /> on <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\mathbb{R}^d" />.
 
 In [Python](https://github.com/wilson-ye-chen/stein_thinning#getting-started),
 [MATLAB](https://github.com/wilson-ye-chen/stein_thinning_matlab#getting-started),
@@ -32,6 +32,10 @@ or R, it takes a single function call to start Stein Thinning:
 ```python
 indices = thin(samples, gradients, 100)
 ```
+
+Here 
+* ```python samples``` is an array with <img alt="formula" src="https://render.githubusercontent.com/render/math?math=d" /> columns, whose rows are samples produced by a sampling method, such as MCMC
+* ```python gradients``` is an array with <img alt="formula" src="https://render.githubusercontent.com/render/math?math=d" /> columns, whose rows are evaluations of <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\nabla%20\log%20p(x)" /> where <img alt="formula" src="https://render.githubusercontent.com/render/math?math=x" /> is the corresponding row of ```python samples```.
 
 ### Stan Examples
 
