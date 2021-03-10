@@ -5,5 +5,5 @@ description: >
     Here the red samples are automatically chosen by Stein Thinning from
     MCMC output, and collectively they provide a more accurate 
     approximation to the distributional target compared to the original
-    MCMC output <a href="https://arxiv.org/abs/2005.03952">[Read more]</a>.
+    MCMC output. <a href="https://arxiv.org/abs/2005.03952">[Read more]</a>
 theme: jekyll-theme-minimal
