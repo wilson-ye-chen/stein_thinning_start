@@ -5,8 +5,9 @@ selecting a subsequence of samples that best represent the distributional target
 
 The user provides two arrays: one containing the samples and another containing
 the corresponding gradients of the log-target. Stein Thinning returns a vector
-of indices, indicating which samples were selected. In favourable circumstances, 
-Stein Thinning is able to:
+of indices, indicating which samples were selected. 
+
+In favourable circumstances, Stein Thinning is able to:
 
 * automatically identify and remove the burn-in period from MCMC,
 * perform bias-removal for biased sampling procedures,
