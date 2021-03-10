@@ -37,7 +37,7 @@ Here
 * ```samples``` is an array with <img alt="formula" src="https://render.githubusercontent.com/render/math?math=n" /> rows and <img alt="formula" src="https://render.githubusercontent.com/render/math?math=d" /> columns, whose rows are the samples <img alt="formula" src="https://render.githubusercontent.com/render/math?math=x" /> produced by a sampling method, such as MCMC
 * ```gradients``` is an array with <img alt="formula" src="https://render.githubusercontent.com/render/math?math=n" /> rows and <img alt="formula" src="https://render.githubusercontent.com/render/math?math=d" /> columns, whose rows contain <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\nabla%20\log%20p(x)" /> where <img alt="formula" src="https://render.githubusercontent.com/render/math?math=x" /> is the corresponding row of ```samples```
 * ```m``` is an integer, specifying the number of representative samples required
-* ```indices``` is a sequence of integers in <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\{1,\dots,n\}" />, indicating which samples were selected
+* ```indices``` is a vector of length <img alt="formula" src="https://render.githubusercontent.com/render/math?math=m" />, whose elements are integers in <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\{1,\dots,n\}" />, indicating which samples were selected
 
 ### Stan Examples
 
