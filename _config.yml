@@ -1,8 +1,9 @@
 title: Stein Thinning
 logo: /assets/img/gmm.png
 description: >
-    Optimally improves MCMC output via intelligent thinning and burn-in
-    removal. The red dots are automatically chosen by Stein Thinning from
-    the output of a slow-mixing MCMC sampler targeting a Gaussian mixture
-    distribution <a href="https://arxiv.org/abs/2005.03952">[Read more]</a>.
+    Optimally thinning of output from a sampling procedure, such as MCMC. 
+    Here the red samples are automatically chosen by Stein Thinning from
+    MCMC output, and collectively they provide a more accurate 
+    approximation to the distributional target compared to the original
+    MCMC output <a href="https://arxiv.org/abs/2005.03952">[Read more]</a>.
 theme: jekyll-theme-minimal
