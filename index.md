@@ -5,8 +5,8 @@ selecting a subsequence of samples that best represent the distributional target
 
 The user provides two arrays: one containing the samples and another containing
 the corresponding gradients of the log-target. Stein Thinning returns a vector
-of indices, indicating which representative samples were selected. In favourable
-circumstances, Stein Thinning is able to:
+of indices, indicating which samples were selected. In favourable circumstances, 
+Stein Thinning is able to:
 
 * automatically identify and remove the burn-in period from MCMC output,
 * perform bias-removal for biased sampling procedures,
@@ -22,6 +22,9 @@ Implementations of Stein Thinning are currently available for Python and MATLAB:
 * Install for R (Coming soon!)
 
 ### Get Started
+
+First, it is important to parametrise the distributional target so that it 
+has a positive density on $R^d$.
 
 In [Python](https://github.com/wilson-ye-chen/stein_thinning#getting-started),
 [MATLAB](https://github.com/wilson-ye-chen/stein_thinning_matlab#getting-started),
