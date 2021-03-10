@@ -24,7 +24,7 @@ Implementations of Stein Thinning are currently available for Python and MATLAB:
 ### Get Started
 
 First, it is important to parametrise the distributional target so that it 
-has a positive density on $R^d$.
+has a positive density on $`R^d`$.
 
 In [Python](https://github.com/wilson-ye-chen/stein_thinning#getting-started),
 [MATLAB](https://github.com/wilson-ye-chen/stein_thinning_matlab#getting-started),
