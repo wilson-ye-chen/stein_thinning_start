@@ -44,13 +44,17 @@ Here
 
 Stein Thinning can be used to post-process the output directly from the Stan family of probabilistic programming languages:
 * [PyStan](https://github.com/wilson-ye-chen/stein_thinning#pystan-example)
-* MatlabStan
-* RStan
+* [MatlabStan](https://mc-stan.org/users/interfaces/matlab-stan)
+* [RStan](https://mc-stan.org/users/interfaces/rstan)
 
 ### Citing Stein Thinning
 
-Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ (2020) Optimal Thinning of MCMC Output. [arXiv](https://arxiv.org/abs/2005.03952)
+Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ (2021) Optimal Thinning of MCMC Output. Journal of the Royal Statistical Society, Series B, to appear. [arXiv](https://arxiv.org/abs/2005.03952)
 
-### Research Based on Stein Thinning
+### Papers Inspired By Stein Thinning
 
 Teymur O, Gorham J, Riabiz M, Oates CJ (2021) Optimal Quantisation of Probability Measures Using Maximum Mean Discrepancy. International Conference on Artificial Intelligence and Statistics (AISTATS 2021). [Paper](http://proceedings.mlr.press/v130/teymur21a.html)
+
+Chopin N, Ducrocq G (2021) Fast compression of MCMC output. [arXiv](https://arxiv.org/abs/2107.04552)
+
+South LF, Riabiz M, Teymur O, Oates C (2021) Post-Processing of MCMC. Annual Reviews of Statistics and its Application, to appear. [arXiv](https://arxiv.org/abs/2103.16048) 
