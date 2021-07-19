@@ -45,8 +45,8 @@ Here
 
 Stein Thinning can be used to post-process the output directly from the Stan family of probabilistic programming languages:
 * [PyStan](https://github.com/wilson-ye-chen/stein_thinning#pystan-example)
+* [RStan](https://github.com/wilson-ye-chen/stein.thinning#rstan-example)
 * [MatlabStan](https://mc-stan.org/users/interfaces/matlab-stan)
-* [RStan](https://mc-stan.org/users/interfaces/rstan)
 
 ### Citing Stein Thinning
 
