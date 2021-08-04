@@ -14,7 +14,8 @@ In favourable circumstances, Stein Thinning is able to:
 * provide improved approximations of the distributional target,
 * offer a compressed representation of sample-based output.
 
-{% include youtubePlayer.html id=WwmTeLrNmOQ %}
+youtubeId: WwmTeLrNmOQ
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ### Installation
 
