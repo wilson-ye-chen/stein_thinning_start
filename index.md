@@ -14,6 +14,8 @@ In favourable circumstances, Stein Thinning is able to:
 * provide improved approximations of the distributional target,
 * offer a compressed representation of sample-based output.
 
+{% include youtubePlayer.html id=page.WwmTeLrNmOQ %}
+
 ### Installation
 
 Implementations of Stein Thinning are available for Python, R, and MATLAB:
@@ -62,4 +64,4 @@ South LF, Riabiz M, Teymur O, Oates C (2021) Post-Processing of MCMC. Annual Rev
 
 ### Acknowledgements
 
-This work was supported by the Lloyd’s Register Foundation Programme on Data-Centric Engineering and the Programme on Health and Medical Sciences at The Alan Turing Institute (UK), the British Heart Foundation (SP/18/6/33805, RG/15/9/31534, PG/15/91/31812, FS/18/27/33543), the UK Research and Innovation Strategic Priorities Fund (EP/T001569/1), the UK Engineering and Physical Sciences Research Council (EP/P01268X/1, NS/A000049/1, EP/M012492/1), the UK National Institute for Health Research (II-LB-1116-20001) and the Wellcome Trust (WT 203148/Z/16/Z). 
+This work was supported by the Lloyd’s Register Foundation Programme on Data-Centric Engineering and the Programme on Health and Medical Sciences at The Alan Turing Institute (UK), the British Heart Foundation (SP/18/6/33805, RG/15/9/31534, PG/15/91/31812, FS/18/27/33543), the UK Research and Innovation Strategic Priorities Fund (EP/T001569/1), the UK Engineering and Physical Sciences Research Council (EP/P01268X/1, NS/A000049/1, EP/M012492/1), the UK National Institute for Health Research (II-LB-1116-20001) and the Wellcome Trust (WT 203148/Z/16/Z).
