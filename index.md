@@ -3,7 +3,7 @@ Stein Thinning is a tool for post-processing the output of a sampling procedure,
 such as Markov chain Monte Carlo (MCMC). It aims to minimise a Stein discrepancy,
 selecting a subsequence of samples that best represent the distributional target.
 
-<iframe width="520" height="293" src="https://www.youtube.com/embed/WwmTeLrNmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<iframe width="520" height="293" src="https://www.youtube.com/embed/WwmTeLrNmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The user provides two arrays: one containing the samples and another containing
 the corresponding gradients of the log-target. Stein Thinning returns a vector
@@ -48,7 +48,6 @@ Here
 Stein Thinning can be used to post-process the output directly from the Stan family of probabilistic programming languages:
 * [PyStan](https://github.com/wilson-ye-chen/stein_thinning#pystan-example)
 * [RStan](https://github.com/wilson-ye-chen/stein.thinning#rstan-example)
-* [MatlabStan](https://mc-stan.org/users/interfaces/matlab-stan)
 
 ### Citing Stein Thinning
 
