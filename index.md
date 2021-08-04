@@ -3,7 +3,7 @@ Stein Thinning is a tool for post-processing the output of a sampling procedure,
 such as Markov chain Monte Carlo (MCMC). It aims to minimise a Stein discrepancy,
 selecting a subsequence of samples that best represent the distributional target.
 
-{% include youtubePlayer.html id="WwmTeLrNmOQ" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WwmTeLrNmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The user provides two arrays: one containing the samples and another containing
 the corresponding gradients of the log-target. Stein Thinning returns a vector
