@@ -55,9 +55,11 @@ Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ (2021
 
 ### Papers Inspired By Stein Thinning
 
+Hawkins C, Koppel A, Zhang Z (2022) Online, Informative MCMC Thinning with Kernelized Stein Discrepancy. [arXiv](https://arxiv.org/abs/2201.07130)
+
 Teymur O, Gorham J, Riabiz M, Oates CJ (2021) Optimal Quantisation of Probability Measures Using Maximum Mean Discrepancy. International Conference on Artificial Intelligence and Statistics (AISTATS 2021). [Paper](http://proceedings.mlr.press/v130/teymur21a.html)
 
-Chopin N, Ducrocq G (2021) Fast compression of MCMC output. [arXiv](https://arxiv.org/abs/2107.04552)
+Chopin N, Ducrocq G (2021) Fast compression of MCMC output. Entropy, 23(8), 1017. [arXiv](https://arxiv.org/abs/2107.04552)
 
 South LF, Riabiz M, Teymur O, Oates C (2021) Post-Processing of MCMC. Annual Reviews of Statistics and its Application, to appear. [arXiv](https://arxiv.org/abs/2103.16048)
 
