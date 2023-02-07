@@ -51,7 +51,7 @@ Stein Thinning can be used to post-process the output directly from the Stan fam
 
 ### Citing Stein Thinning
 
-Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ (2021) Optimal Thinning of MCMC Output. Journal of the Royal Statistical Society, Series B, 84(4), 1059-1081. [arXiv](https://arxiv.org/abs/2005.03952)
+Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ (2022) Optimal Thinning of MCMC Output. Journal of the Royal Statistical Society, Series B, 84(4), 1059-1081. [arXiv](https://arxiv.org/abs/2005.03952)
 
 ### Papers Inspired By Stein Thinning
 
