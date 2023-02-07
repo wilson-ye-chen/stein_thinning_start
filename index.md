@@ -51,9 +51,15 @@ Stein Thinning can be used to post-process the output directly from the Stan fam
 
 ### Citing Stein Thinning
 
-Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ (2021) Optimal Thinning of MCMC Output. Journal of the Royal Statistical Society, Series B, to appear. [arXiv](https://arxiv.org/abs/2005.03952)
+Riabiz M, Chen WY, Cockayne J, Swietach P, Niederer SA, Mackey L, Oates CJ (2021) Optimal Thinning of MCMC Output. Journal of the Royal Statistical Society, Series B, 84(4), 1059-1081. [arXiv](https://arxiv.org/abs/2005.03952)
 
 ### Papers Inspired By Stein Thinning
+
+Benard C, Staber B, Da Veiga S (2023) Kernel Stein Discrepancy thinning: a theoretical perspective of pathologies and a practical fix with regularization. [arXiv](https://arxiv.org/abs/2301.13528)
+
+Fisher MA, Oates CJ (2022) Gradient-Free Kernel Stein Discrepancy [arXiv](https://arxiv.org/abs/2207.02636)
+
+Anastasiou A, Barp A, Briol F-X, Ebner B, Gaunt RE, Ghaderinezhad F, Gorham J, Gretton A, Ley C, Liu Q, Mackey L, Oates CJ, Reinert G, Swan Y (2023) Stein’s Method Meets Computational Statistics: A Review of Some Recent Developments. Statistical Science, 38(1), 120–139. [arXiv](https://arxiv.org/abs/2105.03481)
 
 Hawkins C, Koppel A, Zhang Z (2022) Online, Informative MCMC Thinning with Kernelized Stein Discrepancy. [arXiv](https://arxiv.org/abs/2201.07130)
 
