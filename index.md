@@ -67,7 +67,7 @@ Teymur O, Gorham J, Riabiz M, Oates CJ (2021) Optimal Quantisation of Probabilit
 
 Chopin N, Ducrocq G (2021) Fast compression of MCMC output. Entropy, 23(8), 1017. [Journal](https://www.mdpi.com/1099-4300/23/8/1017) [arXiv](https://arxiv.org/abs/2107.04552)
 
-South LF, Riabiz M, Teymur O, Oates C (2021) Post-Processing of MCMC. Annual Reviews of Statistics and its Application, to appear. [arXiv](https://arxiv.org/abs/2103.16048)
+South LF, Riabiz M, Teymur O, Oates C (2021) Post-Processing of MCMC. Annual Reviews of Statistics and its Application, 9, 529-555. [arXiv](https://arxiv.org/abs/2103.16048)
 
 ### Acknowledgements
 
