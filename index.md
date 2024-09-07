@@ -41,7 +41,7 @@ Here
 * ```samples``` is an array with $n$ rows and $d$ columns, whose rows are the samples $x$ produced by a sampling method, such as MCMC,
 * ```gradients``` is an array with $n$ rows and $d$ columns, whose rows contain the gradients $\nabla\log p(x)$ where $x$ is the corresponding row of ```samples```,
 * ```m``` is an integer, specifying the number of representative samples required,
-* ```indices``` is a vector of length $m$, whose elements are integers in $\{1,\dots,n\}"$, indicating which samples were selected.
+* ```indices``` is a vector of length $m$, whose elements are integers in $\{1,\dots,n\}$, indicating which samples were selected.
 
 ### Stan Examples
 
