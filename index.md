@@ -27,7 +27,7 @@ Implementations of Stein Thinning are available for Python, R, and MATLAB:
 ### Get Started
 
 First, it is important to parametrise the distributional target so that it
-has a positive and differentiable density <img alt="formula" src="https://render.githubusercontent.com/render/math?math=p(x)" /> on <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\mathbb{R}^d" />.
+has a positive and differentiable density $p(x)$ on $\mathbb{R}^d$.
 
 In [Python](https://github.com/wilson-ye-chen/stein_thinning#getting-started),
 [R](https://github.com/wilson-ye-chen/stein.thinning#getting-started),
@@ -38,10 +38,10 @@ indices = thin(samples, gradients, m)
 ```
 
 Here
-* ```samples``` is an array with <img alt="formula" src="https://render.githubusercontent.com/render/math?math=n" /> rows and <img alt="formula" src="https://render.githubusercontent.com/render/math?math=d" /> columns, whose rows are the samples <img alt="formula" src="https://render.githubusercontent.com/render/math?math=x" /> produced by a sampling method, such as MCMC,
-* ```gradients``` is an array with <img alt="formula" src="https://render.githubusercontent.com/render/math?math=n" /> rows and <img alt="formula" src="https://render.githubusercontent.com/render/math?math=d" /> columns, whose rows contain the gradients <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\nabla%20\log%20p(x)" /> where <img alt="formula" src="https://render.githubusercontent.com/render/math?math=x" /> is the corresponding row of ```samples```,
+* ```samples``` is an array with $n$ rows and $d$ columns, whose rows are the samples $x$ produced by a sampling method, such as MCMC,
+* ```gradients``` is an array with $n$ rows and $d$ columns, whose rows contain the gradients $\nabla\log p(x)$ where $x$ is the corresponding row of ```samples```,
 * ```m``` is an integer, specifying the number of representative samples required,
-* ```indices``` is a vector of length <img alt="formula" src="https://render.githubusercontent.com/render/math?math=m" />, whose elements are integers in <img alt="formula" src="https://render.githubusercontent.com/render/math?math=\{1,\dots,n\}" />, indicating which samples were selected.
+* ```indices``` is a vector of length $m$, whose elements are integers in $\{1,\dots,n\}"$, indicating which samples were selected.
 
 ### Stan Examples
 
